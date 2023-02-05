@@ -1,6 +1,6 @@
 const axios = require("axios");
 const MD5 = require("./md5");
-const { baiduFanYiConfig } = require("../../config/getConfig");
+const { baiduFanYiConfig } = require("../../config/config");
 
 const appid = baiduFanYiConfig?.appid;
 const key = baiduFanYiConfig?.key;
